@@ -1,0 +1,18 @@
+{
+  "author": "Valdir Silva",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --entry ./index.js",
+    "build": "webpack --mode development"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.1",
+    "iframe-message-proxy": "^1.2.0",
+    "webpack": "^5.83.1",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.4",
+    "webpack-cli": "^5.1.1"
+  }
+}
