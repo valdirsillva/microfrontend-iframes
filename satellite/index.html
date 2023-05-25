@@ -34,6 +34,12 @@
         .app-satellite h1 {
             color: white;
         }
+
+        .apps {
+            display: flex;
+            justify-content: row;
+            gap: 30px;
+        }
     </style>
 </head>
 
@@ -45,14 +51,14 @@
         </div>
 
         <section class="apps">
-            <!-- Fragment 1 - React application -->
-            <div style="background: #cecece; width: 100%; display: inline-block;">
-                <iframe src="http://localhost:3000" width="100%" height="400px" frameBorder="0"></iframe>
+            <!-- Microfrontend 1 - React application -->
+            <div>
+                <iframe src="http://localhost:3000" height="500px" frameBorder="0"></iframe>
             </div>
 
-            <!-- Fragment 2 - Vue application -->
-            <div style="background: #eee; width: 45%; display: inline-block;">
-                <iframe src="http://localhost:8080" width="100%" height="400px" frameBorder="0"></iframe>
+            <!-- MIcrofrontend 2 - Vue application -->
+            <div>
+                <iframe src="http://localhost:8080" height="500px" frameBorder="0"></iframe>
             </div>
         </section>
 
